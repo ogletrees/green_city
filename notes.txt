@@ -1,1 +1,0 @@
-The Earth Engine census tract data includes 74002 features. It should be the 2010 Census TIGER polygons.
