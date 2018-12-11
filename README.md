@@ -1,4 +1,4 @@
-# green_city
+# Green Cities
 Looking for the greenest cities in the USA
 
 Cities are trying to be 'greener' and provide pleasant public spaces for residents. The inspiration for this project was an article and work done by the [Berliner Morgenpost](https://interaktiv.morgenpost.de/gruenste-staedte-deutschlands/) in 2016.
