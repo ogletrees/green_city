@@ -6,9 +6,13 @@ var cities = table.limit(10).select("city_st")
 Map.addLayer(cities)
 //----------------------------------------------------------------------
 //----------------------------------------------------------------------
-// Landsat data for 1998
-var LS5 = ee.ImageCollection("LANDSAT/LT05/C01/T1_TOA")
-  .filterDate("1998-01-01", "1998-12-31")
+// Landsat data for 1998 3-red, 4-NIR
+// var LS5 = ee.ImageCollection("LANDSAT/LT05/C01/T1_TOA")
+//   .filterDate("1998-01-01", "1998-12-31")
+
+// Landsat data for 2018 - 4-red, 5-NIR
+var LS5 = ee.ImageCollection("LANDSAT/LC08/C01/T1_RT_TOA")
+  .filterDate("2018-01-01", "2018-12-01")
   
 // Greenest Pixel Composite
 function addNDVI(input) {
