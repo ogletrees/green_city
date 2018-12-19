@@ -1,7 +1,7 @@
 ---
 title: This will be used as the title-tag of the page head
 ---
-[home](https://ogletrees.github.io/green_city/)|some more pages...
+[home](https://ogletrees.github.io/green_city/)| another page | another page | one more
 
 This is about the data maybe...
 
