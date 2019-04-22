@@ -62,4 +62,4 @@ tops %>% mutate(city = fct_inorder(city_st)) %>%
   mutate(city = fct_rev(city)) %>% 
   ggplot(aes(x=ndvi_mean18, xend=ndvi_mean13, y=city)) +
   geom_dumbbell(size_x = 2, size_xend = 2, colour_x = "darkgreen", colour_xend = "gray") + 
-  labs(title="Top Cities in 2018", subtitle= "Change from 2013 to 2018", x="NDVI", y="City")
+  labs(title="Top Cities in 2018", subtitle= "Change from 2013 to 2018", x="NDVI", y="City")+theme(axis.text=element_text(size=11))
